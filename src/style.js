@@ -146,7 +146,7 @@ export const ContainerItens = styled.div`
             width: 10%;
             height: 20%;
             margin-top: -20px;
-            margin-left: 10px;
+            margin-left: 20px;
           }
 
 `
