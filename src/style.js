@@ -6,9 +6,11 @@ import breakpoints from './breakpoints';
 export const Container = styled.div `
          height: 100vh;
          
+         
          @media ${breakpoints.sm}{
             
-            min-height: 100vh;
+            height: 50%;
+            width: 50%;
             overflow-x: hidden; 
             overflow-y: hidden;
           }
@@ -24,8 +26,8 @@ export const Header = styled.header`
          @media ${breakpoints.sm}{
             
             justify-content: center;
-            height: 10%;
-            overflow: hidden;
+            min-width: 100vh;
+      
           }
          
          li{
@@ -120,9 +122,8 @@ export const Image = styled.img`
 
  @media ${breakpoints.sm}{
          
-         overflow-x: hidden; 
-         overflow-y: hidden;
-        
+        width: 100%;
+        height: 100%;  
           }
 
 `
