@@ -35,7 +35,7 @@ export const Header = styled.header`
 
             @media ${breakpoints.sm}{
             
-              margin: 10px 40px 0 10px;
+              margin: 10px 30px 0 10px;
 
               
             
@@ -47,7 +47,9 @@ export const Header = styled.header`
                 display: none;
               }
 
-
+              &:nth-child(3){
+                display: none;
+              }
             }
   
          }
