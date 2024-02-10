@@ -5,14 +5,11 @@ import breakpoints from './breakpoints';
 
 export const Container = styled.div `
          height: 100vh;
+         overflow: hidden;
          
          
          @media ${breakpoints.sm}{
-            
-            height: 50%;
-            width: 50%;
-            overflow-x: hidden; 
-            overflow-y: hidden;
+           
           }
        
 `
@@ -25,20 +22,22 @@ export const Header = styled.header`
 
          @media ${breakpoints.sm}{
             
-            justify-content: center;
-            min-width: 100vh;
-      
+           justify-content: space-around;
+             width: 100%;
+             height: 10%;
           }
          
          li{
-          margin: 20px 20px 20px 60px;
+  
+            margin: 20px 50px 20px 20px;
             color: #fff;
             text-decoration: none;
 
             @media ${breakpoints.sm}{
             
-              margin: 10px 20px 0 15px;
-              text-align: center;
+              margin: 10px 30px 0 10px;
+
+              
             
               &:nth-child(4){
                 display: none;
@@ -64,8 +63,9 @@ export const Header = styled.header`
             color: #fff;
 
             @media ${breakpoints.sm}{
+            right: 5%;
+            left: 5%;
             
-            text-align: center;
             font-size: 12px;
           }
          }
@@ -77,9 +77,7 @@ export const Header = styled.header`
           justify-content: space-around;
 
           @media ${breakpoints.sm}{
-            margin-top: 5px;
-            text-align: right;
-            justify-content: center;
+            margin-top: 10px;
             font-size: 10px;
           }
          }
@@ -91,10 +89,10 @@ export const Header = styled.header`
       margin-left: -50px;
 
       @media ${breakpoints.sm}{
-            width: 40px;
-            height: 30px;
+            width: 50px;
+            height: 45px;
             margin-top: 10px;
-            flex-direction: column;
+            margin-right: -90px;
         
           }
 `
