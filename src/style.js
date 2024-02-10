@@ -9,7 +9,8 @@ export const Container = styled.div `
          @media ${breakpoints.sm}{
             
             min-height: 100vh;
-            overflow: hidden;
+            overflow-x: hidden; 
+            overflow-y: hidden;
           }
        
 `
@@ -23,7 +24,8 @@ export const Header = styled.header`
          @media ${breakpoints.sm}{
             
             justify-content: center;
-            height: 50px;
+            height: 10%;
+            overflow: hidden;
           }
          
          li{
@@ -115,6 +117,13 @@ export const Image = styled.img`
  overflow: hidden;
  transition: 0.5s;
  background: rgba(0, 0, 0, 0.5);
+
+ @media ${breakpoints.sm}{
+         
+         overflow-x: hidden; 
+         overflow-y: hidden;
+        
+          }
 
 `
 export const Overlay = styled.div`
