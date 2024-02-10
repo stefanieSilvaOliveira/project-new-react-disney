@@ -146,6 +146,7 @@ export const ContainerItens = styled.div`
             width: 10%;
             height: 20%;
             margin-top: -20px;
+            margin-left: 10px;
           }
 
 `
@@ -206,11 +207,11 @@ export const P = styled.p`
          @media ${breakpoints.sm}{
             
             width: 300px;
-            margin-left: 80px;
+            margin-left: 90px;
             margin-top: -150px;
             justify-content: center;
             align-items: center;
-            font-size: 10px;
+            font-size: 12px;
           
         
           }
