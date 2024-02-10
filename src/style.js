@@ -4,13 +4,10 @@ import 'swiper/css';
 import breakpoints from './breakpoints';
 
 export const Container = styled.div `
-         height: 100vh;
+         height: 100%;
+         width: 100%;
          overflow: hidden;
-         
-         
-         @media ${breakpoints.sm}{
-           
-          }
+        
        
 `
 export const Header = styled.header`
@@ -35,7 +32,7 @@ export const Header = styled.header`
 
             @media ${breakpoints.sm}{
             
-              margin: 10px 30px 0 10px;
+              margin: 5px 30px 0 10px;
 
               
             
@@ -120,8 +117,9 @@ export const Image = styled.img`
  @media ${breakpoints.sm}{
          
         width: 100%;
-        height: 100%;  
-          }
+        height: 100vh;  
+        overflow: hidden;
+        }
 
 `
 export const Overlay = styled.div`
@@ -147,7 +145,7 @@ export const ContainerItens = styled.div`
   @media ${breakpoints.sm}{
             width: 10%;
             height: 20%;
-            margin-top: -100px;
+            margin-top: -20px;
           }
 
 `
@@ -206,11 +204,14 @@ export const P = styled.p`
          text-align: center;
 
          @media ${breakpoints.sm}{
-            width: 200px;
+            
+            width: 300px;
             margin-left: 80px;
-            margin-top: -220px;
+            margin-top: -150px;
+            justify-content: center;
+            align-items: center;
             font-size: 10px;
-            text-align: center;
+          
         
           }
 

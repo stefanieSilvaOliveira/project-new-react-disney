@@ -81,10 +81,11 @@ const CarroselConteiner = styled.div`
           @media ${breakpoints.sm}{
             left: 5%;
             right: 5%;
-            margin-top: 230px;
+            margin-top: 280px;
             margin-left: 20px;
             margin-right: 20px;
             min-width: 100px; 
+            overflow: hidden;
       
             }        
 
