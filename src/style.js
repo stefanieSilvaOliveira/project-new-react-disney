@@ -35,7 +35,7 @@ export const Header = styled.header`
 
             @media ${breakpoints.sm}{
             
-              margin: 10px 30px 0 10px;
+              margin: 10px 40px 0 10px;
 
               
             
@@ -89,9 +89,9 @@ export const Header = styled.header`
       margin-left: -50px;
 
       @media ${breakpoints.sm}{
-            width: 50px;
-            height: 45px;
-            margin-top: 10px;
+            width: 40px;
+            height: 30px;
+            margin-top: 15px;
             margin-right: -90px;
         
           }
@@ -146,7 +146,7 @@ export const ContainerItens = styled.div`
   cursor: pointer;
 
   @media ${breakpoints.sm}{
-            width: 14%;
+            width: 10%;
             height: 20%;
             margin-top: -100px;
           }
@@ -208,7 +208,7 @@ export const P = styled.p`
 
          @media ${breakpoints.sm}{
             width: 200px;
-            margin-left: 60px;
+            margin-left: 80px;
             margin-top: -220px;
             font-size: 10px;
             text-align: center;

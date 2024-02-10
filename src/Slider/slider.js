@@ -81,9 +81,11 @@ const CarroselConteiner = styled.div`
           @media ${breakpoints.sm}{
             left: 5%;
             right: 5%;
-            margin-top: 200px;
-            margin-left: -20px;
+            margin-top: 230px;
+            margin-left: 20px;
+            margin-right: 20px;
             min-width: 100px; 
+      
             }        
 
 .princesasEdit{
@@ -97,7 +99,8 @@ const CarroselConteiner = styled.div`
             height: 150px;
             width: 90px;
             margin-top: 20px;
-            
+            padding: 0 5px 0 5px;
+             
           }      
 }        
 
