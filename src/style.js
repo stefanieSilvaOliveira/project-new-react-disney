@@ -47,9 +47,6 @@ export const Header = styled.header`
                 display: none;
               }
 
-              &:nth-child(3){
-                display: none;
-              }
 
             }
   
