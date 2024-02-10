@@ -5,7 +5,12 @@ import breakpoints from './breakpoints';
 
 export const Container = styled.div `
          height: 100vh;
-
+         
+         @media ${breakpoints.sm}{
+            
+            min-height: 100vh;
+            overflow: hidden;
+          }
        
 `
 export const Header = styled.header`
